@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7E930B1E3BB8E500DA2672 /* WordCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7E93011E3BB8E500DA2672 /* WordCount.framework */; };
+		6D7E93101E3BB8E500DA2672 /* WordCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E930F1E3BB8E500DA2672 /* WordCountTests.swift */; };
+		6D7E93121E3BB8E500DA2672 /* WordCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7E93041E3BB8E500DA2672 /* WordCount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7E931C1E3BB95700DA2672 /* BagCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E931B1E3BB95700DA2672 /* BagCountTests.swift */; };
+		6D7E931E1E3BBA2900DA2672 /* BagWordCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E931D1E3BBA2900DA2672 /* BagWordCounter.swift */; };
+		6D7E93201E3CAE8D00DA2672 /* WordCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E931F1E3CAE8D00DA2672 /* WordCount.swift */; };
+		6D7E93221E3CE54800DA2672 /* ArrayUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E93211E3CE54800DA2672 /* ArrayUtilitiesTests.swift */; };
+		6D7E93241E3CE5E100DA2672 /* ArrayUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E93231E3CE5E100DA2672 /* ArrayUtilities.swift */; };
+		6D7E93261E3E79E800DA2672 /* StringUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E93251E3E79E800DA2672 /* StringUtilitiesTests.swift */; };
+		6D7E93281E3E7AC800DA2672 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E93271E3E7AC800DA2672 /* StringUtilities.swift */; };
+		6D7E932A1E3E97E100DA2672 /* DictionaryCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E93291E3E97E100DA2672 /* DictionaryCountTests.swift */; };
+		6D7E932C1E3E991300DA2672 /* DictionaryWordCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E932B1E3E991300DA2672 /* DictionaryWordCounter.swift */; };
+		6D7E93461E40015F00DA2672 /* WholeBook.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E93401E3FFB9A00DA2672 /* WholeBook.txt */; };
+		6D7E93471E40016200DA2672 /* ThirdOfBook.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E93421E3FFC4900DA2672 /* ThirdOfBook.txt */; };
+		6D7E93481E40016800DA2672 /* FewSentences.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E93441E3FFD4400DA2672 /* FewSentences.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D7E930C1E3BB8E500DA2672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7E92F81E3BB8E500DA2672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7E93001E3BB8E500DA2672;
+			remoteInfo = WordCount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D7E93011E3BB8E500DA2672 /* WordCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WordCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7E93041E3BB8E500DA2672 /* WordCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordCount.h; sourceTree = "<group>"; };
+		6D7E93051E3BB8E500DA2672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7E930A1E3BB8E500DA2672 /* WordCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7E930F1E3BB8E500DA2672 /* WordCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WordCountTests.swift; path = WordCountTests/WordCountTests.swift; sourceTree = SOURCE_ROOT; };
+		6D7E93111E3BB8E500DA2672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7E931B1E3BB95700DA2672 /* BagCountTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagCountTests.swift; sourceTree = "<group>"; };
+		6D7E931D1E3BBA2900DA2672 /* BagWordCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagWordCounter.swift; sourceTree = "<group>"; };
+		6D7E931F1E3CAE8D00DA2672 /* WordCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCount.swift; sourceTree = "<group>"; };
+		6D7E93211E3CE54800DA2672 /* ArrayUtilitiesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayUtilitiesTests.swift; sourceTree = "<group>"; };
+		6D7E93231E3CE5E100DA2672 /* ArrayUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayUtilities.swift; sourceTree = "<group>"; };
+		6D7E93251E3E79E800DA2672 /* StringUtilitiesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtilitiesTests.swift; sourceTree = "<group>"; };
+		6D7E93271E3E7AC800DA2672 /* StringUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
+		6D7E93291E3E97E100DA2672 /* DictionaryCountTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryCountTests.swift; sourceTree = "<group>"; };
+		6D7E932B1E3E991300DA2672 /* DictionaryWordCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryWordCounter.swift; sourceTree = "<group>"; };
+		6D7E93371E3FF8D600DA2672 /* WordCountPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountPerformanceTests.swift; sourceTree = "<group>"; };
+		6D7E93391E3FF8D600DA2672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7E93401E3FFB9A00DA2672 /* WholeBook.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WholeBook.txt; path = ../WordCountPerformanceTests/WholeBook.txt; sourceTree = "<group>"; };
+		6D7E93421E3FFC4900DA2672 /* ThirdOfBook.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ThirdOfBook.txt; path = ../WordCountPerformanceTests/ThirdOfBook.txt; sourceTree = "<group>"; };
+		6D7E93441E3FFD4400DA2672 /* FewSentences.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FewSentences.txt; path = ../WordCountPerformanceTests/FewSentences.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7E92FD1E3BB8E500DA2672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7E93071E3BB8E500DA2672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E930B1E3BB8E500DA2672 /* WordCount.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7E92F71E3BB8E500DA2672 = {
+			isa = PBXGroup;
+			children = (
+				6D7E93031E3BB8E500DA2672 /* WordCount */,
+				6D7E930E1E3BB8E500DA2672 /* WordCountTests */,
+				6D7E93361E3FF8D600DA2672 /* WordCountPerformanceTests */,
+				6D7E93021E3BB8E500DA2672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7E93021E3BB8E500DA2672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E93011E3BB8E500DA2672 /* WordCount.framework */,
+				6D7E930A1E3BB8E500DA2672 /* WordCountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7E93031E3BB8E500DA2672 /* WordCount */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E93041E3BB8E500DA2672 /* WordCount.h */,
+				6D7E93051E3BB8E500DA2672 /* Info.plist */,
+				6D7E931D1E3BBA2900DA2672 /* BagWordCounter.swift */,
+				6D7E931F1E3CAE8D00DA2672 /* WordCount.swift */,
+				6D7E93231E3CE5E100DA2672 /* ArrayUtilities.swift */,
+				6D7E93271E3E7AC800DA2672 /* StringUtilities.swift */,
+				6D7E932B1E3E991300DA2672 /* DictionaryWordCounter.swift */,
+			);
+			path = WordCount;
+			sourceTree = "<group>";
+		};
+		6D7E930E1E3BB8E500DA2672 /* WordCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E93111E3BB8E500DA2672 /* Info.plist */,
+				6D7E93401E3FFB9A00DA2672 /* WholeBook.txt */,
+				6D7E93421E3FFC4900DA2672 /* ThirdOfBook.txt */,
+				6D7E93441E3FFD4400DA2672 /* FewSentences.txt */,
+				6D7E930F1E3BB8E500DA2672 /* WordCountTests.swift */,
+				6D7E931B1E3BB95700DA2672 /* BagCountTests.swift */,
+				6D7E93211E3CE54800DA2672 /* ArrayUtilitiesTests.swift */,
+				6D7E93251E3E79E800DA2672 /* StringUtilitiesTests.swift */,
+				6D7E93291E3E97E100DA2672 /* DictionaryCountTests.swift */,
+			);
+			path = WordCountTests;
+			sourceTree = "<group>";
+		};
+		6D7E93361E3FF8D600DA2672 /* WordCountPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E93371E3FF8D600DA2672 /* WordCountPerformanceTests.swift */,
+				6D7E93391E3FF8D600DA2672 /* Info.plist */,
+			);
+			path = WordCountPerformanceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D7E92FE1E3BB8E500DA2672 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E93121E3BB8E500DA2672 /* WordCount.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D7E93001E3BB8E500DA2672 /* WordCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7E93151E3BB8E500DA2672 /* Build configuration list for PBXNativeTarget "WordCount" */;
+			buildPhases = (
+				6D7E92FC1E3BB8E500DA2672 /* Sources */,
+				6D7E92FD1E3BB8E500DA2672 /* Frameworks */,
+				6D7E92FE1E3BB8E500DA2672 /* Headers */,
+				6D7E92FF1E3BB8E500DA2672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCount;
+			productName = WordCount;
+			productReference = 6D7E93011E3BB8E500DA2672 /* WordCount.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D7E93091E3BB8E500DA2672 /* WordCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7E93181E3BB8E500DA2672 /* Build configuration list for PBXNativeTarget "WordCountTests" */;
+			buildPhases = (
+				6D7E93061E3BB8E500DA2672 /* Sources */,
+				6D7E93071E3BB8E500DA2672 /* Frameworks */,
+				6D7E93081E3BB8E500DA2672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D7E930D1E3BB8E500DA2672 /* PBXTargetDependency */,
+			);
+			name = WordCountTests;
+			productName = WordCountTests;
+			productReference = 6D7E930A1E3BB8E500DA2672 /* WordCountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7E92F81E3BB8E500DA2672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Despotovic, Mladen";
+				TargetAttributes = {
+					6D7E93001E3BB8E500DA2672 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					6D7E93091E3BB8E500DA2672 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6D7E92FB1E3BB8E500DA2672 /* Build configuration list for PBXProject "WordCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D7E92F71E3BB8E500DA2672;
+			productRefGroup = 6D7E93021E3BB8E500DA2672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7E93001E3BB8E500DA2672 /* WordCount */,
+				6D7E93091E3BB8E500DA2672 /* WordCountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7E92FF1E3BB8E500DA2672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7E93081E3BB8E500DA2672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E93481E40016800DA2672 /* FewSentences.txt in Resources */,
+				6D7E93471E40016200DA2672 /* ThirdOfBook.txt in Resources */,
+				6D7E93461E40015F00DA2672 /* WholeBook.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7E92FC1E3BB8E500DA2672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E93241E3CE5E100DA2672 /* ArrayUtilities.swift in Sources */,
+				6D7E932C1E3E991300DA2672 /* DictionaryWordCounter.swift in Sources */,
+				6D7E931E1E3BBA2900DA2672 /* BagWordCounter.swift in Sources */,
+				6D7E93201E3CAE8D00DA2672 /* WordCount.swift in Sources */,
+				6D7E93281E3E7AC800DA2672 /* StringUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7E93061E3BB8E500DA2672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E93221E3CE54800DA2672 /* ArrayUtilitiesTests.swift in Sources */,
+				6D7E931C1E3BB95700DA2672 /* BagCountTests.swift in Sources */,
+				6D7E93101E3BB8E500DA2672 /* WordCountTests.swift in Sources */,
+				6D7E93261E3E79E800DA2672 /* StringUtilitiesTests.swift in Sources */,
+				6D7E932A1E3E97E100DA2672 /* DictionaryCountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D7E930D1E3BB8E500DA2672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7E93001E3BB8E500DA2672 /* WordCount */;
+			targetProxy = 6D7E930C1E3BB8E500DA2672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D7E93131E3BB8E500DA2672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D7E93141E3BB8E500DA2672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D7E93161E3BB8E500DA2672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WordCount/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.WordCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D7E93171E3BB8E500DA2672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WordCount/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.WordCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6D7E93191E3BB8E500DA2672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WordCountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.WordCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D7E931A1E3BB8E500DA2672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WordCountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.WordCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7E92FB1E3BB8E500DA2672 /* Build configuration list for PBXProject "WordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7E93131E3BB8E500DA2672 /* Debug */,
+				6D7E93141E3BB8E500DA2672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7E93151E3BB8E500DA2672 /* Build configuration list for PBXNativeTarget "WordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7E93161E3BB8E500DA2672 /* Debug */,
+				6D7E93171E3BB8E500DA2672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D7E93181E3BB8E500DA2672 /* Build configuration list for PBXNativeTarget "WordCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7E93191E3BB8E500DA2672 /* Debug */,
+				6D7E931A1E3BB8E500DA2672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7E92F81E3BB8E500DA2672 /* Project object */;
+}
